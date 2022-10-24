@@ -1,11 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
-			"name": "travel-site",
-			"path": "travel-site"
+			{
+				"name": "travel-site",
+				"path": "travel-site"
+			}
 		}
 	],
 	"settings": {}
