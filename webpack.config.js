@@ -31,9 +31,17 @@ module.exports = {
         use: ["style-loader", "css-loader", { loader: "postcss-loader", options: { postcssOptions: { plugins: postCSSPlugins } } }]
       },
       {
-        test: /\.(png|jpg)/,
-        loader: 'url-loader'
-      }
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 50000,
+              type: 'assets/images',
+            },
+          },
+        ],
+      },
     ]
   }
 }

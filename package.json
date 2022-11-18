@@ -26,7 +26,8 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.12",
-    "css-loader": "^6.7.1",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.2.0",
     "postcss-import": "^15.0.0",
     "postcss-loader": "^7.0.1",
     "postcss-mixins": "^9.0.4",
